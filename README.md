@@ -115,10 +115,41 @@ Contributions welcome! Please open an issue or submit a pull request.
 
 MIT License - feel free to use for educational purposes.
 
+## 🚀 Railway Deployment
+
+Deploy nofAster to Railway in minutes:
+
+### 1. Create Railway Account
+- Visit [railway.app](https://railway.app) and sign up
+
+### 2. Deploy Backend
+1. Click "New Project" → "Deploy from GitHub"
+2. Select `nofAster` repository
+3. Set Root Directory: `backend`
+4. Add Environment Variable:
+   - `DATABASE_URL=file:./dev.db`
+5. Railway will auto-detect Node.js and deploy
+
+### 3. Deploy Frontend
+1. Create another service: "New Service" → "GitHub Repo"
+2. Select same repository
+3. Set Root Directory: `frontend`
+4. Add Environment Variables:
+   - `NEXT_PUBLIC_API_URL=https://your-backend-url.up.railway.app`
+   - `NEXT_PUBLIC_WS_URL=wss://your-backend-url.up.railway.app`
+5. Deploy!
+
+### 4. Get Your URLs
+- Backend: `https://your-backend-name.up.railway.app`
+- Frontend: `https://your-frontend-name.up.railway.app`
+
+**Note:** Free tier includes $5 credit per month
+
 ## 🔗 Links
 
 - Inspired by: [nof1.ai](https://nof1.ai)
 - CoinStats API: [https://openapiv1.coinstats.app/](https://openapiv1.coinstats.app/)
+- Railway: [https://railway.app](https://railway.app)
 
 ## 👨‍💻 Developer
 
