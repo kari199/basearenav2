@@ -1,0 +1,45 @@
+// This is your Prisma schema file
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Model {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique
+  strategy    String
+  equity      Float    @default(10000)
+  cash        Float    @default(10000)
+  positions   String   @default("[]") // JSON string for positions
+  lastTradeAt DateTime @default(now())
+  trades      Trade[]
+  createdAt   DateTime @default(now())
+}
+
+model Trade {
+  id         Int      @id @default(autoincrement())
+  modelId    Int
+  model      Model    @relation(fields: [modelId], references: [id])
+  asset      String
+  side       String   // "buy" or "sell"
+  entryPrice Float
+  exitPrice  Float?
+  quantity   Float
+  pnl        Float?
+  pnlPercent Float?
+  status     String   @default("open") // "open" or "closed"
+  createdAt  DateTime @default(now())
+  closedAt   DateTime?
+}
+
+model Price {
+  id        Int      @id @default(autoincrement())
+  asset     String
+  price     Float
+  timestamp DateTime @default(now())
+}
