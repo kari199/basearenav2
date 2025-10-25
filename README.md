@@ -153,4 +153,4 @@ Deploy BaseArena to Railway in minutes:
 
 ## 👨‍💻 Developer
 
-Created with ❤️ by Andi Chopradana Rizky
+Created with ❤️ by kariGG
