@@ -91,7 +91,7 @@ export default function PriceTicker() {
 
             return (
               <div key={`${asset}-${index}`} className="ticker-item">
-                <span className="text-[#E8DABD] font-semibold text-sm">{asset}</span>
+                <span className="text-[#0D28F0] font-semibold text-sm">{asset}</span>
                 <span className="text-white font-bold text-base">
                   ${price > 0 ? price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '---'}
                 </span>
@@ -125,7 +125,7 @@ export default function PriceTicker() {
           gap: 12px;
           padding: 0 32px;
           white-space: nowrap;
-          border-right: 1px solid rgba(232, 218, 189, 0.2);
+          border-right: 1px solid rgba(13, 40, 240, 0.2);
         }
 
         .ticker-item:last-child {

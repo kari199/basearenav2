@@ -128,8 +128,8 @@ export default function EquityChart({ models }: Props) {
   const labels = allTimestamps.map(formatTimestamp)
 
   const colors = [
-    { border: 'rgb(232, 218, 189)', bg: 'rgba(232, 218, 189, 0.1)' },
-    { border: 'rgb(212, 197, 166)', bg: 'rgba(212, 197, 166, 0.1)' },
+    { border: 'rgb(13, 40, 240)', bg: 'rgba(13, 40, 240, 0.1)' },
+    { border: 'rgb(10, 31, 184)', bg: 'rgba(10, 31, 184, 0.1)' },
     { border: 'rgb(16, 185, 129)', bg: 'rgba(16, 185, 129, 0.1)' },
     { border: 'rgb(168, 151, 120)', bg: 'rgba(168, 151, 120, 0.1)' },
     { border: 'rgb(194, 177, 146)', bg: 'rgba(194, 177, 146, 0.1)' },
@@ -212,7 +212,7 @@ export default function EquityChart({ models }: Props) {
             onClick={() => setSelectedTimeframe(tf.value)}
             className={`px-4 py-2 rounded-lg font-semibold text-sm transition-all ${
               selectedTimeframe === tf.value
-                ? 'bg-[#E8DABD] text-black shadow-lg'
+                ? 'bg-[#0D28F0] text-black shadow-lg'
                 : 'bg-gray-800/50 text-gray-400 hover:bg-gray-700/50 hover:text-gray-200'
             }`}
           >

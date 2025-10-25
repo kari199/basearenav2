@@ -8,10 +8,10 @@
   --bg-primary: #000000;
   --bg-secondary: #1a1a1a;
   --bg-tertiary: #2a2a2a;
-  --text-primary: #E8DABD;
+  --text-primary: #0D28F0;
   --text-secondary: #a89778;
-  --accent-beige: #E8DABD;
-  --accent-dark-beige: #d4c5a6;
+  --accent-beige: #0D28F0;
+  --accent-dark-beige: #0A1FB8;
   --success: #10b981;
   --danger: #ef4444;
 }
@@ -31,10 +31,10 @@ body {
 body {
   background: #000000;
   background-image:
-    radial-gradient(at 0% 0%, rgba(232, 218, 189, 0.08) 0px, transparent 50%),
-    radial-gradient(at 100% 0%, rgba(232, 218, 189, 0.06) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, rgba(232, 218, 189, 0.05) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, rgba(232, 218, 189, 0.07) 0px, transparent 50%);
+    radial-gradient(at 0% 0%, rgba(13, 40, 240, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(13, 40, 240, 0.06) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(13, 40, 240, 0.05) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(13, 40, 240, 0.07) 0px, transparent 50%);
   color: var(--text-primary);
   font-family: 'Inter', sans-serif;
   position: relative;
@@ -48,8 +48,8 @@ body::before {
   right: 0;
   bottom: 0;
   background:
-    linear-gradient(90deg, rgba(232, 218, 189, 0.02) 1px, transparent 1px),
-    linear-gradient(rgba(232, 218, 189, 0.02) 1px, transparent 1px);
+    linear-gradient(90deg, rgba(13, 40, 240, 0.02) 1px, transparent 1px),
+    linear-gradient(rgba(13, 40, 240, 0.02) 1px, transparent 1px);
   background-size: 50px 50px;
   pointer-events: none;
   z-index: 0;
@@ -68,42 +68,42 @@ h1, h2, h3, h4, h5, h6 {
   .glass {
     background: rgba(26, 26, 26, 0.7);
     backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid rgba(232, 218, 189, 0.12);
+    border: 1px solid rgba(13, 40, 240, 0.12);
     box-shadow:
       0 8px 32px 0 rgba(0, 0, 0, 0.37),
-      inset 0 1px 0 0 rgba(232, 218, 189, 0.05);
+      inset 0 1px 0 0 rgba(13, 40, 240, 0.05);
   }
 
   .glass-card {
     background: linear-gradient(135deg, rgba(42, 42, 42, 0.8), rgba(26, 26, 26, 0.9));
     backdrop-filter: blur(16px) saturate(180%);
-    border: 1px solid rgba(232, 218, 189, 0.2);
+    border: 1px solid rgba(13, 40, 240, 0.2);
     box-shadow:
-      0 8px 32px 0 rgba(232, 218, 189, 0.15),
-      0 2px 8px 0 rgba(232, 218, 189, 0.1),
-      inset 0 1px 0 0 rgba(232, 218, 189, 0.05);
+      0 8px 32px 0 rgba(13, 40, 240, 0.15),
+      0 2px 8px 0 rgba(13, 40, 240, 0.1),
+      inset 0 1px 0 0 rgba(13, 40, 240, 0.05);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .glass-card:hover {
     transform: translateY(-2px);
-    border-color: rgba(232, 218, 189, 0.4);
+    border-color: rgba(13, 40, 240, 0.4);
     box-shadow:
-      0 12px 48px 0 rgba(232, 218, 189, 0.25),
-      0 4px 16px 0 rgba(232, 218, 189, 0.2),
-      inset 0 1px 0 0 rgba(232, 218, 189, 0.1);
+      0 12px 48px 0 rgba(13, 40, 240, 0.25),
+      0 4px 16px 0 rgba(13, 40, 240, 0.2),
+      inset 0 1px 0 0 rgba(13, 40, 240, 0.1);
   }
 
   .glow {
-    box-shadow: 0 0 20px rgba(232, 218, 189, 0.3);
+    box-shadow: 0 0 20px rgba(13, 40, 240, 0.3);
   }
 
   .glow-beige {
-    box-shadow: 0 0 20px rgba(232, 218, 189, 0.4);
+    box-shadow: 0 0 20px rgba(13, 40, 240, 0.4);
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #E8DABD 0%, #d4c5a6 100%);
+    background: linear-gradient(135deg, #0D28F0 0%, #0A1FB8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     inset: 0;
     border-radius: 0.75rem;
     padding: 1px;
-    background: linear-gradient(135deg, #E8DABD, #d4c5a6);
+    background: linear-gradient(135deg, #0D28F0, #0A1FB8);
     -webkit-mask:
       linear-gradient(#fff 0 0) content-box,
       linear-gradient(#fff 0 0);
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .shimmer {
-    background: linear-gradient(90deg, transparent, rgba(232, 218, 189, 0.1), transparent);
+    background: linear-gradient(90deg, transparent, rgba(13, 40, 240, 0.1), transparent);
     background-size: 200% 100%;
     animation: shimmer 2s infinite;
   }
@@ -146,10 +146,10 @@ h1, h2, h3, h4, h5, h6 {
 
   @keyframes pulse-glow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(232, 218, 189, 0.4);
+      box-shadow: 0 0 20px rgba(13, 40, 240, 0.4);
     }
     50% {
-      box-shadow: 0 0 40px rgba(232, 218, 189, 0.6);
+      box-shadow: 0 0 40px rgba(13, 40, 240, 0.6);
     }
   }
 }

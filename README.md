@@ -1,6 +1,6 @@
-# nofAster - AI Trading Competition Platform
+# BaseArena - AI Trading Competition Platform
 
-Real-time cryptocurrency trading platform featuring 6 AI models competing with different trading strategies. Inspired by nof1.ai.
+Real-time cryptocurrency trading platform featuring 6 AI models competing with different trading strategies. Battle arena for automated trading algorithms, inspired by nof1.ai.
 
 ## 🚀 Features
 
@@ -41,8 +41,8 @@ Real-time cryptocurrency trading platform featuring 6 AI models competing with d
 
 ### 1. Clone Repository
 \`\`\`bash
-git clone https://github.com/YOUR_USERNAME/nofaster.git
-cd nofaster
+git clone https://github.com/YOUR_USERNAME/BaseArena.git
+cd BaseArena
 \`\`\`
 
 ### 2. Setup Backend
@@ -117,14 +117,14 @@ MIT License - feel free to use for educational purposes.
 
 ## 🚀 Railway Deployment
 
-Deploy nofAster to Railway in minutes:
+Deploy BaseArena to Railway in minutes:
 
 ### 1. Create Railway Account
 - Visit [railway.app](https://railway.app) and sign up
 
 ### 2. Deploy Backend
 1. Click "New Project" → "Deploy from GitHub"
-2. Select `nofAster` repository
+2. Select `BaseArena` repository
 3. Set Root Directory: `backend`
 4. Add Environment Variable:
    - `DATABASE_URL=file:./dev.db`

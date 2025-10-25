@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue hexagon background -->
+  <path d="M256 32L448 144V368L256 480L64 368V144L256 32Z" fill="#0D28F0"/>
+
+  <!-- Evil face -->
+  <!-- Left eye -->
+  <path d="M180 200C180 200 200 180 220 200C220 220 200 240 180 220C160 200 180 180 180 200Z" fill="white"/>
+
+  <!-- Right eye -->
+  <path d="M332 200C332 200 312 180 292 200C292 220 312 240 332 220C352 200 332 180 332 200Z" fill="white"/>
+
+  <!-- Evil smile with fangs -->
+  <path d="M180 300C180 300 200 340 256 340C312 340 332 300 332 300" stroke="white" stroke-width="20" stroke-linecap="round" fill="none"/>
+
+  <!-- Left fang -->
+  <path d="M200 300L190 340L210 320Z" fill="white"/>
+
+  <!-- Right fang -->
+  <path d="M312 300L322 340L302 320Z" fill="white"/>
+
+  <!-- Headphone arc (top) -->
+  <path d="M128 100C128 100 100 140 100 200" stroke="#0D28F0" stroke-width="40" stroke-linecap="round" fill="none"/>
+  <path d="M384 100C384 100 412 140 412 200" stroke="#0D28F0" stroke-width="40" stroke-linecap="round" fill="none"/>
+</svg>

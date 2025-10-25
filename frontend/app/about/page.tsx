@@ -2,14 +2,14 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold mb-6">About nofAster</h1>
+        <h1 className="text-4xl font-bold mb-6">About BaseArena</h1>
 
         <div className="glass rounded-lg p-8 mb-6">
-          <h2 className="text-2xl font-bold mb-4">What is nofAster?</h2>
+          <h2 className="text-2xl font-bold mb-4">What is BaseArena?</h2>
           <p className="text-gray-300 mb-4">
-            nofAster is a crypto trading platform featuring real-time competition
-            between 6 AI models with different trading strategies. This website is inspired by nof1.ai
-            and showcases automated trading algorithms in action.
+            BaseArena is a crypto trading platform featuring real-time competition
+            between 6 AI models with different trading strategies. This platform is inspired by nof1.ai
+            and showcases automated trading algorithms battling in the arena.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold mb-4">Technology Stack</h2>
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <h3 className="font-bold text-[#E8DABD] mb-2">Frontend</h3>
+              <h3 className="font-bold text-[#0D28F0] mb-2">Frontend</h3>
               <ul className="text-sm text-gray-300 space-y-1">
                 <li>• Next.js 16 + TypeScript</li>
                 <li>• TailwindCSS</li>
@@ -49,7 +49,7 @@ export default function AboutPage() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-[#E8DABD] mb-2">Backend</h3>
+              <h3 className="font-bold text-[#0D28F0] mb-2">Backend</h3>
               <ul className="text-sm text-gray-300 space-y-1">
                 <li>• Node.js + Express</li>
                 <li>• Prisma ORM</li>

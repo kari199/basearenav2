@@ -84,9 +84,9 @@ export default function Home() {
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <div className="glass-card rounded-2xl p-6 relative overflow-hidden group">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-[#E8DABD]/10 rounded-full blur-3xl group-hover:bg-[#E8DABD]/20 transition-all"></div>
+            <div className="absolute top-0 right-0 w-32 h-32 bg-[#0D28F0]/10 rounded-full blur-3xl group-hover:bg-[#0D28F0]/20 transition-all"></div>
             <div className="relative z-10">
-              <h3 className="text-sm font-semibold text-[#E8DABD] mb-3 uppercase tracking-wider">Connection Status</h3>
+              <h3 className="text-sm font-semibold text-[#0D28F0] mb-3 uppercase tracking-wider">Connection Status</h3>
               <div className="flex items-center gap-3">
                 <div className={`p-3 rounded-xl ${connected ? 'bg-green-500/20' : 'bg-red-500/20'}`}>
                   <div className={`w-4 h-4 rounded-full ${connected ? 'bg-green-500' : 'bg-red-500'} animate-pulse`}></div>
@@ -97,12 +97,12 @@ export default function Home() {
           </div>
 
           <div className="glass-card rounded-2xl p-6 relative overflow-hidden group">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-[#E8DABD]/10 rounded-full blur-3xl group-hover:bg-[#E8DABD]/20 transition-all"></div>
+            <div className="absolute top-0 right-0 w-32 h-32 bg-[#0D28F0]/10 rounded-full blur-3xl group-hover:bg-[#0D28F0]/20 transition-all"></div>
             <div className="relative z-10">
-              <h3 className="text-sm font-semibold text-[#E8DABD] mb-3 uppercase tracking-wider">Active AI Models</h3>
+              <h3 className="text-sm font-semibold text-[#0D28F0] mb-3 uppercase tracking-wider">Active AI Models</h3>
               <div className="flex items-center gap-3">
-                <div className="p-3 rounded-xl bg-[#E8DABD]/20">
-                  <svg className="w-6 h-6 text-[#E8DABD]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="p-3 rounded-xl bg-[#0D28F0]/20">
+                  <svg className="w-6 h-6 text-[#0D28F0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                   </svg>
                 </div>
@@ -112,12 +112,12 @@ export default function Home() {
           </div>
 
           <div className="glass-card rounded-2xl p-6 relative overflow-hidden group">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-[#E8DABD]/10 rounded-full blur-3xl group-hover:bg-[#E8DABD]/20 transition-all"></div>
+            <div className="absolute top-0 right-0 w-32 h-32 bg-[#0D28F0]/10 rounded-full blur-3xl group-hover:bg-[#0D28F0]/20 transition-all"></div>
             <div className="relative z-10">
-              <h3 className="text-sm font-semibold text-[#E8DABD] mb-3 uppercase tracking-wider">Trading Tick</h3>
+              <h3 className="text-sm font-semibold text-[#0D28F0] mb-3 uppercase tracking-wider">Trading Tick</h3>
               <div className="flex items-center gap-3">
-                <div className="p-3 rounded-xl bg-[#E8DABD]/20">
-                  <svg className="w-6 h-6 text-[#E8DABD]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="p-3 rounded-xl bg-[#0D28F0]/20">
+                  <svg className="w-6 h-6 text-[#0D28F0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
@@ -128,12 +128,12 @@ export default function Home() {
         </div>
 
         <div className="glass-card rounded-2xl p-8 mb-8 relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-64 h-64 bg-[#E8DABD]/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 right-0 w-64 h-64 bg-[#E8DABD]/10 rounded-full blur-3xl"></div>
+          <div className="absolute top-0 left-0 w-64 h-64 bg-[#0D28F0]/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-0 w-64 h-64 bg-[#0D28F0]/10 rounded-full blur-3xl"></div>
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-6">
-              <div className="p-2 rounded-lg bg-[#E8DABD]/20">
-                <svg className="w-6 h-6 text-[#E8DABD]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="p-2 rounded-lg bg-[#0D28F0]/20">
+                <svg className="w-6 h-6 text-[#0D28F0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
@@ -144,11 +144,11 @@ export default function Home() {
         </div>
 
         <div className="glass-card rounded-2xl p-8 relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-[#E8DABD]/10 rounded-full blur-3xl"></div>
+          <div className="absolute top-0 right-0 w-64 h-64 bg-[#0D28F0]/10 rounded-full blur-3xl"></div>
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-6">
-              <div className="p-2 rounded-lg bg-[#E8DABD]/20">
-                <svg className="w-6 h-6 text-[#E8DABD]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="p-2 rounded-lg bg-[#0D28F0]/20">
+                <svg className="w-6 h-6 text-[#0D28F0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
@@ -173,14 +173,14 @@ export default function Home() {
                     return (
                       <React.Fragment key={model.name}>
                         <tr
-                          className="border-b border-gray-800/50 hover:bg-[#E8DABD]/5 transition-all duration-300 group cursor-pointer"
+                          className="border-b border-gray-800/50 hover:bg-[#0D28F0]/5 transition-all duration-300 group cursor-pointer"
                           onClick={() => handleModelClick(model.name)}
                         >
                           <td className="py-4 px-6">
                             <div className={`inline-flex items-center justify-center w-10 h-10 rounded-full font-black ${
-                              index === 0 ? 'bg-[#E8DABD]/20 text-[#E8DABD] ring-2 ring-[#E8DABD]/50' :
+                              index === 0 ? 'bg-[#0D28F0]/20 text-[#0D28F0] ring-2 ring-[#0D28F0]/50' :
                               index === 1 ? 'bg-gray-400/20 text-gray-300' :
-                              index === 2 ? 'bg-[#d4c5a6]/20 text-[#d4c5a6]' :
+                              index === 2 ? 'bg-[#0A1FB8]/20 text-[#0A1FB8]' :
                               'bg-gray-700/50 text-gray-400'
                             }`}>
                               #{index + 1}
@@ -188,7 +188,7 @@ export default function Home() {
                           </td>
                           <td className="py-4 px-6">
                             <div className="flex items-center gap-2">
-                              <span className="font-bold text-lg group-hover:text-[#E8DABD] transition-colors">{model.name}</span>
+                              <span className="font-bold text-lg group-hover:text-[#0D28F0] transition-colors">{model.name}</span>
                               <svg
                                 className={`w-4 h-4 text-gray-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
                                 fill="none"

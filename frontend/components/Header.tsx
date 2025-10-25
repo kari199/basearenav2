@@ -14,15 +14,9 @@ export default function Header() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center gap-3">
-              <svg width="40" height="40" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="256" cy="256" r="256" fill="#E8DABD"/>
-                <path d="M256 120L280 230L256 256L232 230L256 120Z" fill="#000000"/>
-                <path d="M392 256L282 280L256 256L282 232L392 256Z" fill="#000000"/>
-                <path d="M256 392L232 282L256 256L280 282L256 392Z" fill="#000000"/>
-                <path d="M120 256L230 232L256 256L230 280L120 256Z" fill="#000000"/>
-              </svg>
-              <span className="text-2xl font-bold font-mono" style={{ color: '#E8DABD' }}>
-                nofAster
+              <img src="/logo.svg" alt="BaseArena" width="45" height="45" />
+              <span className="text-2xl font-bold font-mono" style={{ color: '#0D28F0' }}>
+                BaseArena
               </span>
             </Link>
 
@@ -41,7 +35,7 @@ export default function Header() {
                       ? 'text-black'
                       : 'hover:text-white'
                   }`}
-                  style={isActive(item.path) ? { backgroundColor: '#E8DABD' } : {}}
+                  style={isActive(item.path) ? { backgroundColor: '#0D28F0' } : {}}
                 >
                   {item.name}
                 </Link>
